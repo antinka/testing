@@ -1,0 +1,80 @@
+﻿@model Testing.BLL.DTO.View.ViewForExamPdf
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta  charset="UTF-8"/>
+    <title>ExamResult</title>
+</head>
+<body>
+    <itext encoding="UTF-8" producer="RazorPDF">
+        <div>
+            <div style="text-align:center">
+                <h3>Результат прохождения экзамена </h3>
+                <h4>по предмету: @Html.DisplayFor(model => model.SubjectName)</h4>
+                <h4>название экзамена: @Html.DisplayFor(model => model.ExamName), длительность: @Html.DisplayFor(model => model.Runtime)</h4>
+                <h4>пройден студентом @Html.DisplayFor(model => model.SecondName) @Html.DisplayFor(model => model.FirstName)</h4>
+            </div>
+            <hr />
+            <dl class="dl-horizontal">
+
+                <dt>
+                    Вопросы
+                </dt>
+
+                <dd>
+                    @{byte i = 1; }
+                    @foreach (var a in Model.Questions.ToString().Split('&'))
+                    {
+                        <span>  Вопрос @i: </span>@Html.DisplayFor(model => a)
+                        i++;
+                        <br />
+                    }
+                </dd>
+
+                <dt>
+                    Ответы
+                </dt>
+
+                <dd>
+                    @foreach (var a in Model.Answers.ToString().Split('.'))
+                    {
+                        @Html.DisplayFor(model => a)
+                        <br />
+                    }
+                </dd>
+            </dl>
+            <hr />
+            <table>
+                <tr>
+                    <td>Коментарий:</td>
+                    <td>@Html.DisplayFor(model => model.Comment)</td>
+                </tr>
+                <tr>
+                    <th>Оценка</th>
+                    <th>@Html.DisplayFor(model => model.Mark)</th>
+                </tr>
+            </table>
+            <hr />
+            <table>
+                <tr>
+                    <td>Начало прохождения теста:</td>
+                    <td>@Html.DisplayFor(model => model.StartExam)</td>
+                </tr>
+                <tr>
+                    <td>Конец прохождения теста:</td>
+                    <td>@Html.DisplayFor(model => model.EndtExam)</td>
+                </tr>
+            </table>
+
+
+
+        </div>
+    </itext>
+</body>
+</html>

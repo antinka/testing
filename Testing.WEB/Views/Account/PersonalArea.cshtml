@@ -1,0 +1,135 @@
+﻿@model Testing.BLL.DTO.View.ViewPersonalData
+
+@{
+    ViewBag.Title = "PersonalArea";
+}
+<p><a name="top"></a></p>
+<style>
+    div.show-image {
+        position: relative;
+        float: right;
+        margin: 5px;
+        width: 200px;
+        height: 400px;
+    }
+        div.show-image:hover img {
+            opacity: 0.5;
+        }
+    div.show-image:hover .my-hiden {
+        display: block;
+    }
+
+    div.show-image .my-hiden {
+        position: absolute;
+        display: none;
+    }
+        
+    div.show-image .file {
+            top: 0px;
+            left: 0px;
+            width:200px;
+        }
+       div.show-image .submit {
+            top: 40px;
+            left: 0px;
+            width: 200px;
+        }
+    dl.personalData {
+ 
+        float: left;
+        text-align: left;
+    }
+</style>
+
+<div class="show-image pull-left" style="margin-right: 10px">
+  
+    @using (Html.BeginForm("UploadAvatar", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <img class="img-thumbnail" src="@ViewBag.ImageData" />
+
+            <label class="btn btn-default btn-file  my-hiden  file">
+                Выбрать фотографию <input  class="file" type="file" name="uploadImage" accept=".png" style="display: none;">
+            </label>
+            <input class="btn btn-default  my-hiden submit" type="submit" value="Обновить" />
+    }
+
+</div> 
+<div class="">
+    <h4  style="text-align: center;font-size: 1.25em;font-family: Georgia;font-style: italic;">Личные данные</h4>
+    <hr />
+    <dl class="dl-horizontal personalData ">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SecondName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SecondName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lock)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lock)
+        </dd>
+    </dl>
+</div>
+
+
+
+@using GridMvc.Html
+<p style="position: absolute;top:470px; font-size: 1.25em;font-family: Georgia;font-style: italic;">Результаты прохождения тестов</p>
+@Html.Grid(Model.PersonalDataTest).Columns(columns =>
+{
+    columns.Add(foo => foo.SubjectName).Titled("Предмет").Sortable(true);
+    columns.Add(foo => foo.TestName).Titled("Тест").Sortable(true);
+    columns.Add(foo => foo.TestDifficult).Titled("Сложность").Sortable(true);
+    columns.Add(foo => foo.Runtime).Titled("Длительность").Sortable(true);
+    columns.Add(foo => foo.StartTest).Titled("Начало прохождения теста").Sortable(true);
+    columns.Add(foo => foo.EndtTest).Titled("Конец прохождения теста").Sortable(true);
+    columns.Add(foo => foo.Mark).Titled("Процент правильных ответов").Sortable(true);
+}).WithPaging(20)
+
+<p style="font-size: 1.25em;font-family: Georgia;font-style: italic;">Результаты прохождения экзаменов</p>
+<div style="width:100%;">
+    @Html.Grid(Model.PersonalDataExam).Columns(columns =>
+{
+    columns.Add(foo => foo.SubjectName).Titled("Предмет").Sortable(true);
+    columns.Add(foo => foo.ExamName).Titled("Экзамен").Sortable(true);
+    columns.Add(foo => foo.Runtime).Titled("Длительность").Sortable(true);
+    columns.Add(foo => foo.StartExam).Titled("Начало прохождения экзамена").Sortable(true);
+    columns.Add(foo => foo.EndtExam).Titled("Конец прохождения экзамена").Sortable(true);
+    columns.Add(foo => foo.Mark).Titled("Оценка").Sortable(true);
+    //columns.Add(foo => foo.Comment).Titled("Комментарий").SetWidth("100px").Sortable(true);
+    columns.Add().Encoded(false)
+                  .Sanitized(false)
+                  .Titled(string.Empty)
+                  .RenderValueAs(x => @Html.ActionLink("Подробней", "ExamResult", "GeneratePdf", new { idExam = x.IdExam, IdOpenAnswer = x.IdOpenAnswer }, null));
+}).WithPaging(20)
+    <p><a href="#top">Наверх</a></p>
+</div>

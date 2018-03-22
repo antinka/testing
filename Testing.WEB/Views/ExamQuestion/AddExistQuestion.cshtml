@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Testing.BLL.DTO.QuestionDTO>
+
+@{
+    ViewBag.Title = "AddExistQuestion";
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.QuestionTitle)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.QuestionTitle)
+        </td>
+        <td>
+            @Html.ActionLink("Добавить вопрос к экзамену", "AddExistQuestionToExam", new { id = item.Id, subjectId = ViewBag.subjectId, idExam = ViewBag.idExam }) 
+        
+        </td>
+    </tr>
+}
+
+</table>

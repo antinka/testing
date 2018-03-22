@@ -1,0 +1,118 @@
+﻿@model IEnumerable<Testing.BLL.DTO.View.ViewQuestionExamDTO>
+
+@{
+    ViewBag.Title = "Exam";
+    int count = 1;
+}
+
+<div>Оставшееся время: <span id="timer"></span></div>
+@using (Html.BeginForm("SaveAnswersToExam", "TakeExam"))
+{
+    foreach (var question in Model)
+    {
+        <div class="BlockQ" style="border: 1px solid #bdbdbd; width: 80%; border-radius: 4px; margin-top: 40px; background-color: #f0ffff; padding: 8px;">
+            <div class="Question" style="padding: 2%;">
+                <span class="label label-info"> @string.Format("{0}{1}.", "Вопрос ", count)</span>
+                <input type="hidden" name="questionId" value="@question.IdQuestion" />
+                <p style="display: inline; padding: 2%;">@question.QuestionTitle</p>
+            </div>
+            <div class="Answers" style="margin-left: 10%;">
+                @Html.TextArea("answers", "", 10, 50, new { @class = "form-control" })
+            </div>
+            @{count++;}
+        </div> 
+    }
+    <input type="hidden" name="idExam" value="@ViewBag.idExam" />
+    <input type="hidden" name="timeStart" value="@ViewBag.timeStart" />
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" id="SubmitTest" onclick="clearSession()" value="Завершить экзамен" class="btn btn-default" />
+        </div>
+    </div>
+}
+
+<script>
+   function clearSession() {
+        localStorage.clear();
+        localStorage.removeItem('@ViewBag.idExam');
+    }
+    var time = localStorage.getItem("@ViewBag.idExam");
+    if (time != null) {
+        var presentTime = time;
+        var timeArray = presentTime.split(':');
+        var h = checkHour(timeArray[0]);
+        var m = checkMimute(timeArray[1]);
+        var s = checkSecond(timeArray[2] - 1);
+        if (h >= 0 && m >=0) {
+         var t = localStorage.getItem("@ViewBag.idExam");
+        }
+        else
+        {
+             var t = '@ViewBag.Time'
+        }
+    }
+    else {
+        var t = '@ViewBag.Time'
+    }
+    document.getElementById('timer').innerHTML = t;
+    startTimer();
+
+    function startTimer() {
+        var presentTime = document.getElementById('timer').innerHTML;
+        var timeArray = presentTime.split(':');
+        var h = checkHour(timeArray[0]);
+        var m = checkMimute(timeArray[1]);
+        var s = checkSecond(timeArray[2] - 1);
+        if (m == 59) {
+            h = h - 1
+        }
+        if (s == 59) {
+            m = m - 1
+        }
+        h = checkHour(h);
+        m = checkMimute(m);
+        if (h==00 && m==00 && s==10)
+        {
+            localStorage.clear();
+            localStorage.removeItem('@ViewBag.idExam');
+            document.getElementById("SubmitTest").click();
+        }
+        document.getElementById('timer').innerHTML = h + ":" + m + ":" + s;
+
+        sessionStorage.setItem("@ViewBag.idExam", h + ":" + m + ":" + s);
+        setTimeout(startTimer, 1000);
+    }
+    function checkHour(hour) {
+        if (hour < 10 && hour >= 0 && ("0" + hour).length == 2) {
+            hour = "0" + hour
+        };
+        if (hour <0) {
+            hour = "00"
+        };
+        if (hour == 00) {
+            hour = "00"
+        };
+        return hour;
+    }
+    function checkMimute(min) {
+        if (min < 10 && min >= 0 && ("0" + min).length==2) {
+            min = "0" + min
+        };
+        if (min == -1) {
+            min = "59"
+        };
+        if (min == 00) {
+            min = "00"
+        };
+        return min;
+    }
+    function checkSecond(sec) {
+        if (sec < 10 && sec >= 0) {
+            sec = "0" + sec
+        };
+        if (sec == -1) {
+            sec = "59"
+        };
+        return sec;
+    }
+</script>

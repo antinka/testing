@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Testing.BLL.DTO.View.ViewCheckExam>
+
+@{
+    ViewBag.Title = "ViewNotCheckExams";
+}
+
+<h2>Не проверенные екзамены</h2>
+@using (Html.BeginForm())
+{
+    @Html.DropDownList("id", ViewBag.subject as SelectList, "", new { @class = "form-control", onchange = "document.getElementById('submitSubject').click()" })
+<table class="table">
+    <tr>
+      
+        <th>
+            @Html.DisplayNameFor(model => model.SubjectName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExamName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Runtime)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SubjectName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExamName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Runtime)
+        </td>
+        <td>
+            @Html.ActionLink("Проверить", "ViewCheckExam", new { id = item.IdExamOpenAnsw })
+
+        </td>
+    </tr>
+}
+
+</table>
+}

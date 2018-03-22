@@ -1,0 +1,237 @@
+2018-02-07 10:35:03,102  INFO  User enter to system 
+2018-02-07 10:35:26,996  INFO  User logout from system
+2018-02-07 10:35:44,563  INFO  User enter wrong login or password
+2018-02-07 10:35:58,604  INFO  User enter wrong login or password
+2018-02-07 10:36:05,705  INFO  User enter to system 
+2018-02-07 11:34:58,502  INFO  User enter to system 6c158d75-e258-4e80-9091-259a3ed5f28b
+2018-02-07 11:35:10,579  INFO  User 6c158d75-e258-4e80-9091-259a3ed5f28bstart passing the exam
+2018-02-07 11:35:40,070  INFO  User 6c158d75-e258-4e80-9091-259a3ed5f28bstart passing the exam
+2018-02-07 11:37:20,198  INFO  User 6c158d75-e258-4e80-9091-259a3ed5f28bend passing the test
+2018-02-07 11:37:37,665  INFO  User logout from system
+2018-02-07 11:37:45,640  INFO  User enter wrong login or password
+2018-02-07 11:37:49,395  INFO  User enter to system 
+2018-02-07 11:38:34,998  INFO  User logout from system
+2018-02-07 11:38:44,029  INFO  User enter to system 
+2018-02-07 12:13:03,713  INFO  User logout from system
+2018-02-07 12:13:54,444  INFO  User enter wrong login or password
+2018-02-07 12:14:26,140  INFO  User enter to system 
+2018-02-07 12:14:34,323  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddedit subject 75def93e-9a66-45b6-82be-912b5dfdc1ae
+2018-02-07 12:15:02,644  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddsave changes subject 
+2018-02-07 12:15:29,999  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:15:37,002  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddstart passing the test
+2018-02-07 12:16:22,419  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddadd new test 418d1fa4-c5a9-4198-a2f2-d9f9eb05b9fb to subject 75def93e-9a66-45b6-82be-912b5dfdc1ae
+2018-02-07 12:16:42,483  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:23:52,210  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:26:48,597  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddadd new test fba7c992-ce8c-4e84-9868-437f6393fbf3 to subject 75def93e-9a66-45b6-82be-912b5dfdc1ae
+2018-02-07 12:27:15,879  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:27:28,476  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:27:28,620  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bdddelete question and answers to test fba7c992-ce8c-4e84-9868-437f6393fbf3
+2018-02-07 12:34:10,996  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddedit test 32a53943-d662-4aac-a8f8-55730c549222
+2018-02-07 12:34:12,651  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddsave changes test 
+2018-02-07 12:34:15,283  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddedit test 418d1fa4-c5a9-4198-a2f2-d9f9eb05b9fb
+2018-02-07 12:34:16,582  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddsave changes test 
+2018-02-07 12:34:18,131  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddedit test fba7c992-ce8c-4e84-9868-437f6393fbf3
+2018-02-07 12:34:19,293  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddsave changes test 
+2018-02-07 12:35:53,559  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddadd new question and answers to test fba7c992-ce8c-4e84-9868-437f6393fbf3
+2018-02-07 12:42:27,998  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddadd new question and answers to test fba7c992-ce8c-4e84-9868-437f6393fbf3
+2018-02-07 12:42:30,277  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddadd new question and answers to test fba7c992-ce8c-4e84-9868-437f6393fbf3
+2018-02-07 12:42:31,274  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddadd new question and answers to test fba7c992-ce8c-4e84-9868-437f6393fbf3
+2018-02-07 12:42:34,942  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:43:35,472  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:43:35,589  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bdddelete question and answers to test 32a53943-d662-4aac-a8f8-55730c549222
+2018-02-07 12:46:06,489  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddedit test 32a53943-d662-4aac-a8f8-55730c549222
+2018-02-07 12:46:08,839  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddsave changes test 
+2018-02-07 12:48:15,834  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:48:26,925  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:48:26,957  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bdddelete question and answers to test 32a53943-d662-4aac-a8f8-55730c549222
+2018-02-07 12:48:30,854  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddedit test 32a53943-d662-4aac-a8f8-55730c549222
+2018-02-07 12:48:32,073  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddsave changes test 
+2018-02-07 12:49:24,894  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:49:31,386  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:49:31,482  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bdddelete question and answers to test 32a53943-d662-4aac-a8f8-55730c549222
+2018-02-07 12:49:41,931  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddedit test 32a53943-d662-4aac-a8f8-55730c549222
+2018-02-07 12:49:43,245  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddsave changes test 
+2018-02-07 12:52:48,436  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:52:55,710  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bdddelete question and answers to test 32a53943-d662-4aac-a8f8-55730c549222
+2018-02-07 12:52:55,792  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:52:59,690  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddedit test 32a53943-d662-4aac-a8f8-55730c549222
+2018-02-07 12:53:01,199  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddsave changes test 
+2018-02-07 12:53:27,881  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:53:58,236  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bdddelete question and answers to test 32a53943-d662-4aac-a8f8-55730c549222
+2018-02-07 12:53:58,302  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:54:32,249  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddedit test 32a53943-d662-4aac-a8f8-55730c549222
+2018-02-07 12:54:33,726  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddsave changes test 
+2018-02-07 12:57:36,311  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:57:45,111  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bdddelete question and answers to test 32a53943-d662-4aac-a8f8-55730c549222
+2018-02-07 12:57:45,241  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 12:57:56,227  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddedit test 32a53943-d662-4aac-a8f8-55730c549222
+2018-02-07 12:57:58,342  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddsave changes test 
+2018-02-07 13:11:22,216  INFO  User logout from system
+2018-02-07 13:11:58,802  INFO  User enter to system 
+2018-02-07 13:13:24,805  INFO  User logout from system
+2018-02-07 13:14:11,608  INFO  User logout from system
+2018-02-07 13:15:15,364  INFO  User enter wrong login or password
+2018-02-07 13:28:39,545  INFO  User enter to system 
+2018-02-07 13:29:18,153  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178add difficult 3b42d6de-ff2c-4035-829a-44880576faf1
+2018-02-07 13:29:24,797  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178add difficult 0d07c389-7ac4-47b2-9a32-613fef42b3ab
+2018-02-07 13:29:33,353  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178add difficult 5edd5600-dcb8-44ad-80a9-185ade4ec67f
+2018-02-07 13:29:37,469  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178delete difficult 5edd5600-dcb8-44ad-80a9-185ade4ec67f
+2018-02-07 13:29:56,770  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178add subject 8915c070-207d-48f2-af8d-ed1bde45c297
+2018-02-07 13:30:03,069  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178add subject 1a910624-4d18-498c-9987-f1c265082b56
+2018-02-07 13:30:16,498  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178add new test 92bd4869-fd0d-4e91-b733-9f140f952604 to subject 8915c070-207d-48f2-af8d-ed1bde45c297
+2018-02-07 13:30:18,366  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178edit test 92bd4869-fd0d-4e91-b733-9f140f952604
+2018-02-07 13:30:22,123  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178save changes test 
+2018-02-07 13:30:49,985  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 13:31:12,829  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178add new question and answers to test 92bd4869-fd0d-4e91-b733-9f140f952604
+2018-02-07 13:31:15,024  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 13:32:11,914  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 13:32:24,255  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178delete question and answers to test 92bd4869-fd0d-4e91-b733-9f140f952604
+2018-02-07 13:32:24,369  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 13:32:33,112  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178edit test 92bd4869-fd0d-4e91-b733-9f140f952604
+2018-02-07 13:32:34,853  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178save changes test 
+2018-02-07 13:33:11,153  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 13:33:18,540  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178delete question and answers to test 92bd4869-fd0d-4e91-b733-9f140f952604
+2018-02-07 13:33:18,678  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 13:42:49,520  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178edit test 92bd4869-fd0d-4e91-b733-9f140f952604
+2018-02-07 13:42:51,189  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178save changes test 
+2018-02-07 13:43:12,357  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-07 13:48:08,214  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178delete question and answers to test 92bd4869-fd0d-4e91-b733-9f140f952604
+2018-02-07 13:59:36,951  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178lock user 5f1dfe53-83a2-45e3-ab2a-9ae3859e3cc1
+2018-02-07 14:06:37,915  INFO  User logout from system
+2018-02-07 14:07:55,419  INFO  User enter to system 
+2018-02-07 14:14:52,694  INFO  User logout from system
+2018-02-07 14:20:33,768  INFO  User enter wrong login or password
+2018-02-07 15:30:27,183  INFO  User enter wrong login or password
+2018-02-07 15:30:35,659  INFO  User enter to system 
+2018-02-07 15:30:46,695  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178unlock user 2481c018-1153-48ce-bbc1-3f84276a8178
+2018-02-07 15:30:47,794  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178unlock user 5f1dfe53-83a2-45e3-ab2a-9ae3859e3cc1
+2018-02-07 15:32:15,121  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178add new test 91c3156a-aad4-4832-9c43-f630fd505eeb to subject 1a910624-4d18-498c-9987-f1c265082b56
+2018-02-07 15:40:52,281  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178add new exam 3fb403ea-f50f-4004-a078-8814650045e5 to subject 1a910624-4d18-498c-9987-f1c265082b56
+2018-02-07 15:50:26,308  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178add photo
+2018-02-07 15:50:26,352  INFO  User 2481c018-1153-48ce-bbc1-3f84276a8178try to add photo
+2018-02-07 15:50:38,923  INFO  User logout from system
+2018-02-07 15:50:59,930  INFO  New user add system
+2018-02-07 15:51:59,923  INFO  User enter to system 
+2018-02-07 15:52:14,251  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 15:53:06,439  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 15:53:07,289  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 60
+2018-02-07 15:53:15,325  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:10:48,993  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:11:21,479  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:11:22,505  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 100
+2018-02-07 16:11:29,059  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:11:33,354  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:11:53,692  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:11:54,173  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 0
+2018-02-07 16:12:00,764  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:13:43,679  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:13:49,928  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:13:50,690  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 0
+2018-02-07 16:14:00,443  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:15:08,203  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:15:14,701  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:15:21,003  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:15:36,613  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:16:55,354  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:17:26,178  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:17:27,813  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 80
+2018-02-07 16:17:28,207  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:17:28,973  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 80
+2018-02-07 16:17:29,195  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:17:30,047  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 80
+2018-02-07 16:17:31,530  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:17:33,700  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 80
+2018-02-07 16:17:34,316  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:17:35,143  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 80
+2018-02-07 16:17:35,204  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:17:35,916  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 80
+2018-02-07 16:17:36,247  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:17:36,914  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 80
+2018-02-07 16:17:37,018  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:17:37,822  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 80
+2018-02-07 16:17:38,019  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:17:38,662  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 80
+2018-02-07 16:17:38,755  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:17:39,426  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 80
+2018-02-07 16:18:16,752  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:18:45,568  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:18:50,692  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:18:54,510  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:20:11,121  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:20:44,345  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:20:45,656  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 40
+2018-02-07 16:20:52,990  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:21:17,839  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:21:31,761  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:21:32,427  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 50
+2018-02-07 16:21:39,347  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:21:44,316  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:21:44,989  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 0
+2018-02-07 16:21:56,688  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:21:59,651  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:22:10,700  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:22:11,297  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 20
+2018-02-07 16:22:15,302  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:24:53,985  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:25:04,170  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:25:04,863  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 20
+2018-02-07 16:25:12,629  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:25:21,549  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:25:26,396  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:29:19,403  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:29:59,570  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:30:50,855  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:31:03,072  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:31:04,435  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 50
+2018-02-07 16:31:10,656  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:31:19,111  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:31:33,925  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:31:37,173  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:31:46,201  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:31:47,065  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 0
+2018-02-07 16:31:51,495  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:33:44,570  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:33:50,193  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:33:50,883  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 0
+2018-02-07 16:33:55,827  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:34:00,728  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:34:06,568  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:34:36,669  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:34:37,433  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 100
+2018-02-07 16:34:41,387  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:34:45,773  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:34:46,477  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 0
+2018-02-07 16:34:53,580  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:42:13,309  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:42:43,716  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:42:44,213  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 20
+2018-02-07 16:42:48,562  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:47:32,440  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:47:37,178  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:47:41,821  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:48:09,542  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:51:04,346  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:51:20,720  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:51:33,117  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:51:52,012  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:51:52,758  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 0
+2018-02-07 16:51:57,151  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:53:05,419  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:54:44,951  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:54:51,198  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:54:57,372  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:54:58,491  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 0
+2018-02-07 16:55:02,019  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 16:55:32,164  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 16:55:32,756  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7markr 0
+2018-02-07 16:55:37,949  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the test
+2018-02-07 17:02:41,873  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7start passing the exam
+2018-02-07 17:05:58,381  INFO  User 995a253b-d225-4965-84c7-6a1e6826e2f7end passing the test
+2018-02-07 17:06:15,059  INFO  User logout from system
+2018-02-07 17:06:28,745  INFO  User enter to system 
+2018-02-07 17:07:13,262  INFO  User logout from system
+2018-02-07 17:07:21,833  INFO  User enter to system 
+2018-02-07 17:15:05,602  INFO  User logout from system
+2018-02-07 17:15:19,075  INFO  User enter to system 
+2018-02-07 17:15:47,637  INFO  User logout from system
+2018-02-07 17:15:57,293  INFO  User enter to system 

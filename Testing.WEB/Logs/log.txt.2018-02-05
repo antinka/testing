@@ -1,0 +1,27 @@
+2018-02-05 12:50:47,545  INFO  User 0a6fa724-d0d0-446e-946a-92198f3da921start passing the test
+2018-02-05 12:51:08,303  INFO  User 0a6fa724-d0d0-446e-946a-92198f3da921end passing the test
+2018-02-05 12:51:09,160  INFO  User 0a6fa724-d0d0-446e-946a-92198f3da921markr 99
+2018-02-05 15:13:44,929  INFO  User 0a6fa724-d0d0-446e-946a-92198f3da921start passing the exam
+2018-02-05 15:14:10,621  INFO  User 0a6fa724-d0d0-446e-946a-92198f3da921end passing the test
+2018-02-05 15:14:15,859  INFO  User logout from system
+2018-02-05 15:14:30,217  INFO  User enter to system 
+2018-02-05 18:24:26,213  INFO  User logout from system
+2018-02-05 18:24:51,475  INFO  New user add system
+2018-02-05 18:24:58,450  INFO  User enter to system 
+2018-02-05 18:26:46,752  INFO  User c25145d2-10f7-48f7-bab4-7c421271b527start passing the exam
+2018-02-05 18:27:10,233  INFO  User c25145d2-10f7-48f7-bab4-7c421271b527end passing the test
+2018-02-05 18:33:24,214  ERROR Ссылка на объект не указывает на экземпляр объекта.
+2018-02-05 18:36:44,138  ERROR Ссылка на объект не указывает на экземпляр объекта.
+2018-02-05 18:37:13,915  ERROR Ссылка на объект не указывает на экземпляр объекта.
+2018-02-05 18:41:54,623  ERROR Ссылка на объект не указывает на экземпляр объекта.
+2018-02-05 19:14:13,693  ERROR Ссылка на объект не указывает на экземпляр объекта.
+2018-02-05 19:22:32,437  ERROR Ссылка на объект не указывает на экземпляр объекта.
+2018-02-05 19:27:39,307  ERROR Ссылка на объект не указывает на экземпляр объекта.
+2018-02-05 19:27:39,307  ERROR Ссылка на объект не указывает на экземпляр объекта.
+2018-02-05 20:36:31,902  INFO  User logout from system
+2018-02-05 20:41:00,372  INFO  User enter to system 
+2018-02-05 20:41:56,293  INFO  User logout from system
+2018-02-05 20:42:05,275  INFO  User enter to system 
+2018-02-05 22:32:35,364  INFO  User c25145d2-10f7-48f7-bab4-7c421271b527start passing the test
+2018-02-05 22:32:45,685  INFO  User c25145d2-10f7-48f7-bab4-7c421271b527end passing the test
+2018-02-05 22:32:46,409  INFO  User c25145d2-10f7-48f7-bab4-7c421271b527markr 66

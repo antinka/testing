@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Testing.BLL.DTO.ViewQuestionTestDTO>
+
+@{
+    ViewBag.Title = "ViewQuestion";
+}
+
+<h2>Вопросы</h2>
+<p>
+    @Html.ActionLink("Добавить вопрос к тесту", "AddQuestion", new { idTest = ViewBag.idTest, subjectId = ViewBag.subjectId })
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TestName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QuestionTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AnswerTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsRight)
+        </th>
+        
+        <th></th>
+</tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TestName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.QuestionTitle)
+        </td>
+        <td>
+            @foreach (var ansv in item.AnswerTitle)
+            {
+                @Html.DisplayFor(modelItem => ansv)
+                <br />
+            }
+        </td>
+        <td>
+            @foreach (var ansvRight in item.IsRight)
+            {
+                @Html.DisplayFor(modelItem => ansvRight)
+                <br />
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать вопрос", "EditQuestion", new { id=item.IdQuestion, subjectId=ViewBag.subjectId,idTest=ViewBag.idTest }) |
+            @Html.ActionLink("Редактировать ответы на вопрос", "ViewAnswer", "Answer", new { id = item.IdQuestion, subjectId = ViewBag.subjectId, idTest = ViewBag.idTest }, null) |
+            @Html.ActionLink("Удалить вопрос", "DeleteQuestion", new { id = item.IdQuestion, subjectId = ViewBag.subjectId, idTest = ViewBag.idTest })
+        
+        </td>
+    </tr>
+}
+
+</table>
+<p>
+    @Html.ActionLink("Вернуться к тестам", "ViewTest", "Test", new { Id = ViewBag.subjectId }, null)
+</p>

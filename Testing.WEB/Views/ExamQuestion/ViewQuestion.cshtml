@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Testing.BLL.DTO.View.ViewQuestionExamDTO>
+
+@{
+    ViewBag.Title = "ViewQuestion";
+}
+
+
+<p>
+    @Html.ActionLink("Добавить новый вопрос к экзамену", "AddQuestion", new { subjectId=@ViewBag.subjectId, idExam=@ViewBag.idExam })
+</p>
+
+<p>
+    @Html.ActionLink("Добавить уже сущесвующий вопрос к экзамену", "AddExistQuestion", new { subjectId = @ViewBag.subjectId, idExam = @ViewBag.idExam })
+</p>
+<p>
+    @Html.ActionLink("Вернуться к экзаменам", "ViewExam", "Exam", new { Id = ViewBag.subjectId }, null)
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ExamName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QuestionTitle)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExamName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.QuestionTitle)
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать вопрос", "EditQuestion", new { id= item.IdQuestion, subjectId = @ViewBag.subjectId, idExam = @ViewBag.idExam }) |
+            @Html.ActionLink("Удалить вопрос", "DeleteQuestion", new { id = item.IdQuestion, subjectId = @ViewBag.subjectId, idExam = @ViewBag.idExam })
+        </td>
+    </tr>
+}
+
+</table>

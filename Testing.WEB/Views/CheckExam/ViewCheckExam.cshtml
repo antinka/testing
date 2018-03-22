@@ -1,0 +1,57 @@
+﻿@model Testing.BLL.DTO.View.ViewExamQuestionAnswer
+
+@{
+    ViewBag.Title = "ViewCheckExam";
+}
+@using (Html.BeginForm())
+{
+    <div>
+        <h4>Проверка экзамена</h4>
+        <hr />
+        <dl class="dl-horizontal">
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Questions)
+            </dt>
+
+            <dd>
+                @{byte i = 1; }
+                @foreach (var a in Model.Questions.ToString().Split('&'))
+                {
+                    <span>  Вопрос @i: </span>@Html.DisplayFor(model => a)
+                    i++;
+                    <br />
+                }
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Answers)
+            </dt>
+
+            <dd>
+                @foreach (var a in Model.Answers.ToString().Split('.'))
+                {
+                    @Html.DisplayFor(model => a)
+                    <br />
+                }
+            </dd>
+        </dl>
+        <hr />
+        <label>
+            Коментарий к экзамену
+        </label>
+        @*@Html.TextArea("commentToExam", "", 10, 100,new { @class = "form-control" })*@
+        <textarea name="commentToExam" cols=10 rows=3 maxlength=150 class = "form-control"></textarea>
+        <label class="col-10 col-form-label">
+            Оценка
+            <input type="number" name="mark" min="1" max="100" value="60" class="form-control" />
+        </label>
+        <input type="hidden" name="studentExamResultId" value="@Model.StudentExamResultId" />
+        <input type="hidden" name="idConnectionExamAnsw" value="@Model.Id" />
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Сохранить" class="btn btn-default" />
+        </div>
+    </div>
+}

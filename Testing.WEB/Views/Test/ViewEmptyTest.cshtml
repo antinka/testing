@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewBag.Title = "ViewEmptyTest";
+}
+
+<h2>По данному предмету нет ни одного теста</h2>
+
+<p>
+    @Html.ActionLink("Добавить тест", "AddTest", new { subjectId = ViewBag.subjectId })
+</p>

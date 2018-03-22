@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Testing.BLL.DTO.UserDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+@using GridMvc.Html
+@using (Html.BeginForm("Index", "Users", FormMethod.Get))
+{
+    <span> Выбрать пользователей по ролям @Html.DropDownList("Id", ViewBag.Roles as SelectList, "Все", new { @class = "form-control", onchange = "document.getElementById('submitSubject').click()" })</span>
+  <input type="submit" id="submitSubject" value="Поиск" style="visibility:hidden" />
+    @Html.Grid(Model).Columns(columns =>
+{
+    columns.Add(foo => foo.UserName).Titled("Логин").Sortable(true);
+    columns.Add(foo => foo.FirstName).Titled("Имя").Sortable(true);
+    columns.Add(foo => foo.SecondName).Titled("Фамилия").Sortable(true);
+    columns.Add(foo => foo.Email).Sortable(true);
+    columns.Add(foo => foo.LockoutEnabled).Titled("Заблокирован").Sortable(true);
+    columns.Add().Encoded(false)
+                .Sanitized(false)
+                .SetWidth(10)
+                .Titled(string.Empty)
+                .RenderValueAs(x => @Html.ActionLink("Разблокировать пользователя", "UnLockUser", new { Id = x.Id }));
+    columns.Add().Encoded(false)
+               .Sanitized(false)
+               .SetWidth(10)
+               .Titled(string.Empty)
+               .RenderValueAs(x => @Html.ActionLink("Заблокировать пользователя", "LockUser", new { Id = x.Id }));
+}).WithPaging(20)
+}

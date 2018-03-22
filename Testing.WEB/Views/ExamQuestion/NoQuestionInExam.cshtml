@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "NoQuestionInExam";
+}
+
+<h2>В данном экзамене нет ни одного вопроса</h2>
+<p>
+    @Html.ActionLink("Добавить вопрос к экзамену", "AddQuestion", new { idExam = ViewBag.idExam, subjectId = ViewBag.subjectId })
+</p>
+<p>
+    @Html.ActionLink("Добавить уже сущесвующий вопрос к экзамену", "AddExistQuestion", new { subjectId = @ViewBag.subjectId, idExam = @ViewBag.idExam })
+</p>
+<p>
+    @Html.ActionLink("Вернуться к экзаменам", "ViewExam", "Exam", new { Id = ViewBag.subjectId }, null)
+</p>

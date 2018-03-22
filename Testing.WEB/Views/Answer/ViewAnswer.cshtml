@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Testing.BLL.DTO.View.ViewAnswers>
+
+@{
+    ViewBag.Title = "ViewAnswer";
+}
+
+<h2>Ответы</h2>
+<p>
+    @Html.ActionLink("Добавить ответ к вопросу", "AddAnswer", new { subjectId = ViewBag.subjectId, idTest = ViewBag.idTest, questionId = ViewBag.questionId })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AnswerTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsRight)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AnswerTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsRight)
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать ответ", "EditAnswer", new { id = item.Id, subjectId = ViewBag.subjectId, idTest = ViewBag.idTest }) |
+            @Html.ActionLink("Удалить Ответ", "DeleteAnswer", new { id = item.Id, subjectId = ViewBag.subjectId, idTest = ViewBag.idTest })|
+            @Html.ActionLink("Отметить как правильный ответ", "MarkAsRightAnswer", new { id = item.IdConnectionWithRightAnswer, subjectId = ViewBag.subjectId, idTest = ViewBag.idTest })|
+            @Html.ActionLink("Отметить как неправильный ответ", "MarkAsWrongAnswer", new { id = item.IdConnectionWithRightAnswer, subjectId = ViewBag.subjectId, idTest = ViewBag.idTest })|
+        </td>
+    </tr>
+}
+   
+
+</table>

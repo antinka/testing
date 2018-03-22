@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Testing.BLL.DTO.ViewTestSubDTO>
+@Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+@Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+@using GridMvc.Html
+@using (Html.BeginForm("ViewTest", "TakeTest", FormMethod.Get))
+{
+        @Html.DropDownList("id", ViewBag.subject as SelectList,"", new {@class = "form-control", onchange = "document.getElementById('submitSubject').click()"  })
+    <input type="submit" id="submitSubject" value="Поиск" style="visibility:hidden" />
+        @Html.Grid(Model).Columns(columns =>
+   {
+       columns.Add(foo => foo.TestName).Titled("Название теста").Sortable(true);
+       columns.Add(foo => foo.Runtime).Titled("Длительность").Sortable(true);
+       columns.Add(foo => foo.Difficult).Titled("Сложность").Sortable(true);
+       columns.Add(foo => foo.CountQuestion).Titled("Количество вопросов").Sortable(true);
+       columns.Add().Encoded(false)
+                   .Sanitized(false)
+                   .SetWidth(100)
+                   .Titled(string.Empty)
+                   .RenderValueAs(x => @Html.ActionLink("Пройти тест", "Test", new { id = x.IdTest}));
+   }).WithPaging(20)
+}

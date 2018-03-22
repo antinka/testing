@@ -1,0 +1,108 @@
+2018-02-06 10:24:01,603  INFO  User c25145d2-10f7-48f7-bab4-7c421271b527start passing the exam
+2018-02-06 10:24:13,774  INFO  User c25145d2-10f7-48f7-bab4-7c421271b527start passing the exam
+2018-02-06 10:24:17,857  INFO  User logout from system
+2018-02-06 10:24:36,036  INFO  User enter to system 
+2018-02-06 10:28:15,800  INFO  User logout from system
+2018-02-06 10:28:25,848  INFO  User enter to system 
+2018-02-06 10:28:32,316  INFO  User c25145d2-10f7-48f7-bab4-7c421271b527start passing the exam
+2018-02-06 10:31:59,268  INFO  User c25145d2-10f7-48f7-bab4-7c421271b527start passing the exam
+2018-02-06 10:32:04,771  INFO  User c25145d2-10f7-48f7-bab4-7c421271b527end passing the test
+2018-02-06 10:32:09,098  INFO  User logout from system
+2018-02-06 10:32:26,900  INFO  User enter to system 
+2018-02-06 10:36:11,643  INFO  User logout from system
+2018-02-06 17:43:36,217  INFO  New user add system
+2018-02-06 17:50:07,608  INFO  New user add system
+2018-02-06 17:52:35,180  INFO  EmailПользователь с таким логином уже существует
+2018-02-06 17:52:45,951  INFO  New user add system
+2018-02-06 18:17:02,750  INFO  New user add system
+2018-02-06 18:27:13,059  INFO  New user add system
+2018-02-06 18:40:23,950  INFO  New user add system
+2018-02-06 18:44:19,674  INFO  New user add system
+2018-02-06 18:49:59,872  INFO  New user add system
+2018-02-06 18:51:15,645  INFO  User enter to system 
+2018-02-06 18:57:02,319  INFO  User logout from system
+2018-02-06 18:58:09,333  INFO  New user add system
+2018-02-06 19:01:39,798  INFO  New user add system
+2018-02-06 19:08:32,904  INFO  New user add system
+2018-02-06 19:15:57,227  INFO  New user add system
+2018-02-06 19:20:53,604  INFO  New user add system
+2018-02-06 19:24:07,408  INFO  New user add system
+2018-02-06 19:33:10,839  INFO  New user add system
+2018-02-06 19:39:01,528  INFO  New user add system
+2018-02-06 19:45:34,857  INFO  New user add system
+2018-02-06 19:51:36,158  INFO  New user add system
+2018-02-06 19:57:33,285  INFO  EmailПользователь с таким логином уже существует
+2018-02-06 19:57:59,263  INFO  New user add system
+2018-02-06 20:05:30,195  INFO  New user add system
+2018-02-06 20:17:01,254  INFO  New user add system
+2018-02-06 20:29:49,152  INFO  New user add system
+2018-02-06 20:33:16,120  INFO  User enter to system 
+2018-02-06 20:47:18,081  INFO  User logout from system
+2018-02-06 20:48:45,678  INFO  New user add system
+2018-02-06 20:52:44,779  INFO  New user add system
+2018-02-06 20:59:04,812  INFO  New user add system
+2018-02-06 21:14:05,340  INFO  User name к is invalid, can only contain letters or digits.
+2018-02-06 21:14:29,915  INFO  New user add system
+2018-02-06 21:29:09,860  INFO  New user add system
+2018-02-06 21:33:00,292  INFO  New user add system
+2018-02-06 21:38:28,863  INFO  New user add system
+2018-02-06 21:47:05,760  INFO  New user add system
+2018-02-06 21:54:08,677  INFO  New user add system
+2018-02-06 22:12:44,209  INFO  New user add system
+2018-02-06 22:17:06,458  INFO  User enter to system 
+2018-02-06 22:32:33,817  INFO  User logout from system
+2018-02-06 22:33:29,476  INFO  New user add system
+2018-02-06 22:34:46,142  INFO  User enter wrong login or password
+2018-02-06 22:34:51,812  INFO  User enter to system 
+2018-02-06 22:38:13,801  INFO  User e382db1f-4dca-4aed-9a97-995626cd5098add photo
+2018-02-06 22:38:13,848  INFO  User e382db1f-4dca-4aed-9a97-995626cd5098try to add photo
+2018-02-06 22:39:38,802  INFO  User logout from system
+2018-02-06 22:39:54,508  INFO  User enter wrong login or password
+2018-02-06 22:41:22,844  INFO  User enter wrong login or password
+2018-02-06 22:41:28,451  INFO  User enter to system 
+2018-02-06 22:41:51,804  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddunlock user 6c158d75-e258-4e80-9091-259a3ed5f28b
+2018-02-06 22:41:55,272  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddlock user 6c158d75-e258-4e80-9091-259a3ed5f28b
+2018-02-06 22:41:58,689  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddunlock user 6c158d75-e258-4e80-9091-259a3ed5f28b
+2018-02-06 22:41:59,989  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddlock user 6c158d75-e258-4e80-9091-259a3ed5f28b
+2018-02-06 22:43:32,898  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddadd difficult 2ab291bb-b1d9-4154-a464-2e23d4ff7dc4
+2018-02-06 22:43:49,717  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddadd difficult c4a6361d-0787-46d3-aad4-044704451f62
+2018-02-06 22:43:54,048  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddedit difficult c4a6361d-0787-46d3-aad4-044704451f62
+2018-02-06 22:44:01,732  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddsave changes editing difficult 
+2018-02-06 22:44:06,130  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddedit difficult 2ab291bb-b1d9-4154-a464-2e23d4ff7dc4
+2018-02-06 22:44:11,006  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddsave changes editing difficult 
+2018-02-06 22:44:18,311  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bdddelete difficult 2ab291bb-b1d9-4154-a464-2e23d4ff7dc4
+2018-02-06 22:44:32,303  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddadd difficult 6b985ab6-be21-416c-86c0-a50798ca9b38
+2018-02-06 22:44:58,508  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddadd subject 75def93e-9a66-45b6-82be-912b5dfdc1ae
+2018-02-06 22:45:03,433  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddedit subject 75def93e-9a66-45b6-82be-912b5dfdc1ae
+2018-02-06 22:45:16,509  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddadd subject 0d40451f-c720-49fe-907a-742115e0fa53
+2018-02-06 22:46:04,601  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddadd new test 32a53943-d662-4aac-a8f8-55730c549222 to subject 75def93e-9a66-45b6-82be-912b5dfdc1ae
+2018-02-06 22:49:31,492  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-06 22:49:51,760  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddadd new question and answers to test 32a53943-d662-4aac-a8f8-55730c549222
+2018-02-06 22:51:18,769  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-06 22:51:41,285  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddchange right answer 6c3e9a3a-7f0b-e811-90b8-48d224a6154a
+2018-02-06 22:51:50,404  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddchange right answer 6c3e9a3a-7f0b-e811-90b8-48d224a6154a
+2018-02-06 22:52:31,933  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-06 22:53:31,180  ERROR Attaching an entity of type 'Testing.DAL.Entities.Test' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+2018-02-06 22:54:28,139  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddstart passing the test
+2018-02-06 22:54:34,468  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddstart passing the test
+2018-02-06 22:59:29,837  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddend passing the test
+2018-02-06 22:59:30,625  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddmarkr 50
+2018-02-06 23:00:15,244  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddstart passing the test
+2018-02-06 23:02:33,942  INFO  User 94d6d101-7bef-4a7a-b4f7-448e5b206bddadd new exam cbc76907-180f-4242-a711-5339131019cb to subject 75def93e-9a66-45b6-82be-912b5dfdc1ae
+2018-02-06 23:06:37,449  INFO  User logout from system
+2018-02-06 23:06:51,808  INFO  User enter to system 
+2018-02-06 23:07:54,653  INFO  User 6c158d75-e258-4e80-9091-259a3ed5f28bstart passing the exam
+2018-02-06 23:08:05,243  INFO  User 6c158d75-e258-4e80-9091-259a3ed5f28bend passing the test
+2018-02-06 23:09:02,293  INFO  User logout from system
+2018-02-06 23:09:17,469  INFO  User enter to system 
+2018-02-06 23:10:35,882  INFO  User logout from system
+2018-02-06 23:10:52,679  INFO  User enter to system 
+2018-02-06 23:11:58,544  INFO  User logout from system
+2018-02-06 23:12:08,694  INFO  User enter to system 
+2018-02-06 23:12:12,853  INFO  User 6c158d75-e258-4e80-9091-259a3ed5f28bstart passing the exam
+2018-02-06 23:12:38,112  INFO  User 6c158d75-e258-4e80-9091-259a3ed5f28bend passing the test
+2018-02-06 23:12:40,302  INFO  User logout from system
+                                                      2018-02-06 23:33:45,140  INFO  User logout from system
+2018-02-06 23:34:07,073  INFO  User enter to system 
+2018-02-06 23:34:39,122  INFO  User logout from system
+2018-02-06 23:34:50,056  INFO  User enter to system 

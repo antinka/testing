@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Testing.BLL.DTO.View.ViewExamSubjDTO>
+
+@{
+    ViewBag.Title = "ViewExam";
+}
+
+<p>
+    @Html.ActionLink("Добавить новый экзамен", "AddExam", new { subjectId = ViewBag.subjectId })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SubjectName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExamName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Runtime)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SubjectName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExamName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Runtime)
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать экзамен", "EditExam", new { id = item.IdExam, subjectId = ViewBag.subjectId }) |
+            @Html.ActionLink("Вопросы", "ViewQuestion", "ExamQuestion", new { id = item.IdExam, subjectId = ViewBag.subjectId },null) |
+            @Html.ActionLink("Удалить", "DeleteExam", new {  id=item.IdExam, subjectId = ViewBag.subjectId })
+        </td>
+    </tr>
+}
+
+</table>

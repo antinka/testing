@@ -1,0 +1,101 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div style="display: flex; justify-content: center;">
+    <img src="~/fonts/pictest.jpg" alt="QQQQQ" style="float:left" height="100%" />
+    <div style="position:absolute; justify-content: center;">
+      
+    </div>
+</div>
+<div style="display: flex; justify-content: center;">
+    <table style="width: 100%; border-spacing: 7px 11px;">
+        <tr>
+            <td style=" padding: 10px;">
+                @using (Ajax.BeginForm("Question1", new AjaxOptions { UpdateTargetId = "results1" }))
+            {
+                    <fieldset>
+                        <legend>Самая высокая гора в мире?</legend>
+                        @Html.RadioButton("mountain", "Pamir")Пик Комму-низма (Памир) <br>
+                        @Html.RadioButton("mountain", "Himalayas")Джомолунгма (Гималаи)<br>
+                        @Html.RadioButton("mountain", "Karakorum")Чогори (Каракорум) 
+                        <p><input type="submit" value="ответить" class="btn btn-default"></p>
+                    </fieldset>
+                    <div id="results1"></div>
+                }
+            </td>
+         
+            <td style=" padding: 10px;">
+                @using (Ajax.BeginForm("Question2", new AjaxOptions { UpdateTargetId = "results2" }))
+            {
+                    <fieldset>
+                        <legend>Сколько людей на нашей планете?</legend>
+                        @Html.RadioButton("people", "12,1")12,1 млрд<br>
+                        @Html.RadioButton("people", "7,5")7,5 млрд <br>
+                        @Html.RadioButton("people", "6,3")6,3 млрд
+                        <p><input type="submit" value="ответить" class="btn btn-default"></p>
+                    </fieldset>
+                    <div id="results2"></div>
+                }
+            </td>
+        </tr>
+        <tr>
+            <td style=" padding: 10px;">
+                @using (Ajax.BeginForm("Question3", new AjaxOptions { UpdateTargetId = "results3" }))
+            {
+                    <fieldset>
+                        <legend>Самое большое озеро на планете?</legend>
+                        @Html.RadioButton("lake", "Caspian sea")Каспийское море<br>
+                        @Html.RadioButton("lake", "Lake Superior")Озеро Верхнее <br>
+                        @Html.RadioButton("lake", "Lake Victoria")Озеро Виктория
+                        <p><input type="submit" value="ответить" class="btn btn-default"></p>
+                    </fieldset>
+                    <div id="results3"></div>
+                }
+            </td>
+           
+            <td style=" padding: 10px;">
+                @using (Ajax.BeginForm("Question4", new AjaxOptions { UpdateTargetId = "results4" }))
+            {
+                    <fieldset>
+                        <legend>Самая маленькая страна мира?</legend>
+                        @Html.RadioButton("country", "Vatican")Ватикан<br>
+                        @Html.RadioButton("country", "Monaco")Монако <br>
+                        @Html.RadioButton("country", "Nauru")Науру
+                        <p><input type="submit" value="ответить" class="btn btn-default"></p>
+                    </fieldset>
+                    <div id="results4"></div>
+                }
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+@*<div class="jumbotron">
+        <h1>ASP.NET</h1>
+        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+        <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Getting started</h2>
+            <p>
+                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+                enables a clean separation of concerns and gives you full control over markup
+                for enjoyable, agile development.
+            </p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Get more libraries</h2>
+            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Web Hosting</h2>
+            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        </div>
+    </div>*@

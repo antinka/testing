@@ -1,0 +1,122 @@
+﻿@model IEnumerable<Testing.BLL.DTO.View.ViewQuestionAnswers>
+
+@{
+    ViewBag.Title = "Test";
+    int count = 1;
+}
+
+<div>Оставшееся время: <span id="timer"></span></div>
+@using (Html.BeginForm("Result", "TakeTest",new { id = "sbmf" }))
+{
+    foreach (var question in Model)
+    {
+            <div class="BlockQ" style="border: 1px solid #bdbdbd; width: 80%; border-radius: 4px; margin-top: 40px; background-color: #f0ffff; padding: 8px;">
+                <div class="Question" style="padding: 2%;">
+                    <span class="label label-info"> @string.Format("{0}{1}.", "Вопрос ", count)</span>
+                    <input type="hidden" name="questionId" value="@question.QuestionId" />
+                    <p style="display: inline; padding: 2%;">@question.Question</p>
+                </div>
+                <div class="Answers" style="margin-left: 10%;">
+                    @foreach (var answer in question.Answers)
+                    {
+                        <label class="radio-inline">
+                            <input type="checkbox" name="answerIdQuestionId" value="@question.QuestionId//@answer.Id" style="margin-left: -16px;"> @answer.AnswerTitle
+                        </label><br />  
+
+                    }
+                </div>
+                @{count++;}
+            </div>       
+    }
+    <input type="hidden" name="idTest" value="@ViewBag.idTest" />
+     <input type="hidden" name="timeStart" value="@ViewBag.timeStart" />
+ 
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" id="SubmitTest" onclick="clearSession()" value="Завершить тест" class="btn btn-default" />
+            </div>
+        </div>
+}
+<script>
+  
+    function clearSession() {
+        localStorage.clear();
+        localStorage.removeItem('@ViewBag.idTest');
+    }
+    var time = localStorage.getItem("@ViewBag.idTest");
+    if (time != null) {
+        var presentTime = time;
+        var timeArray = presentTime.split(':');
+        var h = checkHour(timeArray[0]);
+        var m = checkMimute(timeArray[1]);
+        var s = checkSecond(timeArray[2] - 1);
+        if (h >= 0 && m >=0) {
+         var t = localStorage.getItem("@ViewBag.idTest");
+        }
+        else
+        {
+             var t = '@ViewBag.Time'
+        }
+    }
+    else {
+        var t = '@ViewBag.Time'
+    }
+    document.getElementById('timer').innerHTML = t;
+    startTimer();
+
+    function startTimer() {
+        var presentTime = document.getElementById('timer').innerHTML;
+        var timeArray = presentTime.split(':');
+        var h = checkHour(timeArray[0]);
+        var m = checkMimute(timeArray[1]);
+        var s = checkSecond(timeArray[2] - 1);
+        if (m == 59) {
+            h = h - 1
+        }
+        if (s == 59) {
+            m = m - 1
+        }
+        h = checkHour(h);
+        m = checkMimute(m);
+        if (h==0 && m==0 && s==10)
+        {
+            localStorage.clear();
+            localStorage.removeItem('@ViewBag.idTest');
+            document.getElementById("SubmitTest").click();
+        }
+        document.getElementById('timer').innerHTML = h + ":" + m + ":" + s;
+
+        localStorage.setItem("@ViewBag.idTest", h + ":" + m + ":" + s);
+        setTimeout(startTimer, 1000);
+    }
+    function checkHour(hour) {
+        if (hour < 10 && hour >= 0) {
+            hour = "0" + hour
+        };
+        if (hour == 00) {
+            hour = "00"
+        };
+        return hour;
+    }
+    function checkMimute(min) {
+        if (min < 10 && min >= 0 && ("0" + min).length==2) {
+            min = "0" + min
+        };
+        if (min == -1) {
+            min = "59"
+        };
+        if (min == 00) {
+            min = "00"
+        };
+        return min;
+    }
+    function checkSecond(sec) {
+        if (sec < 10 && sec >= 0) {
+            sec = "0" + sec
+        };
+        if (sec == -1) {
+            sec = "59"
+        };
+        return sec;
+    }
+</script>

@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "AddRightQuestionToTest";
+}
+
+<style>
+    .funkyradio-default input[type="radio"]:checked ~ label:before,
+    .funkyradio-default input[type="checkbox"]:checked ~ label:before {
+        color: #333;
+        background-color: #ccc;
+    }
+</style>
+<h2>Выбрать правильные ответы к вопросу @ViewBag.question </h2>
+
+@using (Html.BeginForm())
+{
+    foreach (var a in ViewBag.ansver)
+    { <div class="funkyradio">
+        <div class="funkyradio-default">
+            <input type="checkbox" name="rightAnswersId" value="@a.Id" />
+            @a.AnswerTitle
+            <input type="hidden" name="allAnswersId" value="@a.Id" />
+            <br />
+        </div>
+    </div>
+    }
+    <input type="hidden" value="@ViewBag.questionId" name="questionId" />
+    <input type="hidden" value="@ViewBag.idTest" name="idTest" />
+    <input type="hidden" value="@ViewBag.subjectId" name="subjectId" />
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <p><input type="submit" value="Сохранить"  class="btn btn-default"/></p>
+                </div>
+            </div>
+}

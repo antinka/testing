@@ -1,0 +1,7 @@
+﻿<h2>В данном тесте нет ни одного вопроса</h2>
+<p>
+    @Html.ActionLink("Добавить вопрос к тесту", "AddQuestion", new { idTest = ViewBag.idTest, subjectId = ViewBag.subjectId })
+</p>
+<p>
+    @Html.ActionLink("Вернуться к тестам", "ViewTest", "Test",new { Id = ViewBag.subjectId },null)
+</p>
